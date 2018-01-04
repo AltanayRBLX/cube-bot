@@ -857,6 +857,12 @@ bot.on("message", function(message) {
     message.content.toLowerCase().indexOf("götveren") > -1 ||
     message.content.toLowerCase().indexOf("göt veren") > -1 ||
     message.content.toLowerCase().indexOf("bok") > -1 ||
+    message.content.toLowerCase().indexOf("yarrak") > -1 ||
+    message.content.toLowerCase().indexOf("gerizekalı") > -1 ||
+    message.content.toLowerCase().indexOf("göt veren") > -1 || 
+    message.content.toLowerCase().indexOf("götveren") > -1 ||
+    message.content.toLowerCase().indexOf("amq") > -1 ||
+    message.content.toLowerCase().indexOf("amk") > -1 ||
     message.content.toLowerCase().indexOf("piç") > -1) {
         if (!message.channel.nsfw) {
             if (message.author.bot == false) {
